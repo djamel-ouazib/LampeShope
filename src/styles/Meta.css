@@ -1,0 +1,40 @@
+.MetaInformation{
+    position: relative;
+    top: 12%;
+   height: 100%;
+   
+   width: 144px;
+}
+.MetaInformation ul{
+    position: relative;
+    margin: 0%;
+    padding: 0%;
+    top: 30%;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   transform: translateY(-50%);
+   font-size: 9px;
+   font-weight: 400;
+   line-height: 133.84%;
+   letter-spacing: 0.055em;
+    
+}
+.MetaInformation li{
+    list-style-type: none;  
+    font-size: 9px;
+    margin-bottom: 10px;
+    color: #827962;
+}
+.MetaInformation::before{
+    padding: 2rem;
+    position: absolute;
+    content: "";
+    display: block;
+    width: 230px;
+    border-radius: 50%;
+    height: 230px;
+    left: -70px;
+    top: -8%;
+    background-color: #E4D7B9;
+    
+    
+}

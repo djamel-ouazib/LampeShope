@@ -1,0 +1,69 @@
+.containerUl{
+    
+    border-radius: 7px 0 0 7px;
+    box-shadow: inset -1px 0px 5px rgb(0 0 0/25%);
+    background-color: #BDDDDD;
+    margin-top: 8%;
+    box-sizing: border-box;
+    height: 281px;
+    overflow: hidden;
+}
+.ulContol li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    margin: auto;
+    margin: 0%;
+    padding: 0%;
+    cursor: pointer;
+    width: 65px;
+    height: 65px;
+    border-radius: 10px;
+    &:hover{
+        background-color: #DEEEDEEE;
+    }
+    &:focus{
+        background-color: #DEEEDEEE;
+    }
+    img{
+        max-height: 80%;
+       
+    }
+}
+.ulContol{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    position: relative;
+    padding:8px;
+
+}
+.light-night{
+    display: flex;
+    align-items: center;
+
+    span{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        img{
+            width: 50%;
+            height: 38px;
+        }
+    }
+    span:first-child{
+       
+        flex: 1;
+        background-color: #FFF3DA;
+        
+    }
+    span:last-child{
+       
+        flex: 1;
+        background-color: #94A6A6;
+    }
+}
